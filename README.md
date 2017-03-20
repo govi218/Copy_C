@@ -1,4 +1,3 @@
-<![CDATA[
 # ${1:Copy Files and Directories in C}
 A group of C programs that copy a directory or a file from a provided source to a provided target. This program creates a child process for each subdirectory within source which then recursively populates the directory. If there is a conflicting filename in the destination, check if sizes are different. If so, overwrite but if not, perform a hash comparison using the method in hash_functions.c. If the hashes match, do nothing but if not, overwrite. 
 ## Installation
@@ -13,4 +12,3 @@ Run executable after compiling.
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
-]]>
